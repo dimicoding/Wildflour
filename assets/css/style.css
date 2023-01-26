@@ -1,8 +1,70 @@
-/*font-family: 'Sacramento', cursive; For Header*/
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+/*font-family: 'League Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=League+Script&family=Montserrat:wght@100&family=Sacramento&display=swap');
 
 
-h1 {
-    font-family: 'Sacramento', cursive;
-    font-size: 100px;
+/*Footer Section*/
+header {
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+    list-style-type: none;
 }
+#logo{
+    text-decoration: none;
+    color: #DD818E;
+}
+h1 {
+    display: inline;
+    font-weight: normal;
+    font-family: 'League Script', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+#sub-head {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #4B2921;
+    letter-spacing: 4px;
+
+}
+
+  
+/*NAV section*/
+#nav {
+    padding-inline-start: 0;
+    font-size: 80%;
+    padding: 30px;
+}
+#nav li {
+    display: inline-block;
+}
+#nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #4B2921;
+    text-decoration: none;
+    margin: 30px;
+}
+#nav a:hover {
+    border-bottom: 1px solid #F3ECED;
+}
+.active {
+    border-bottom: 1px solid #F3ECED;
+}
+/*NAV section*/
+
+/*#circle {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 200%;
+    background-color: rgba(243, 236, 237, .5);
+    z-index: -1;
+    Footer Section*/
