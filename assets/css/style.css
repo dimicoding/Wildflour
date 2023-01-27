@@ -71,13 +71,15 @@ figure {
     width: 100%;
     position: relative;
     background-attachment: fixed;
+    overflow: hidden;
 }
+
 #logo-text {
     background: black;
     display: inline-block;
     text-transform: uppercase;
     left: 100px;
-    top: 150px;
+    top: 120px;
     position: absolute;
     
 }
