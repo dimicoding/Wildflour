@@ -106,15 +106,32 @@ aside {
     background-color: #F3ECED;
 }
 .aside h2 {
-    float: right;
-    clear: both;
-    padding-right: 250px;
+    text-align: center;
+    padding: 10% 20% 0% 20%;
+    margin: 0;
 }
-.aside img {
-    float: right;
-    clear: both;
-    padding-right: 250px;
+#aside-photo {
+    background: url("../images/jasmin.jpg") no-repeat center center;
+    background-size: 100%;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50%;
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
 #aside-circle {
     width: 100px;
     height: 100px;
