@@ -2,7 +2,7 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Sacramento', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=League+Script&family=Montserrat:wght@100&family=Sacramento&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /*Footer Section*/
 body {
@@ -49,7 +49,7 @@ h1 {
 }
 #nav a {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     color: #4B2921;
     text-decoration: none;
     margin: 30px;
@@ -92,7 +92,9 @@ figure {
 }
 
 /*Section 1- About ME*/
-
+.aside-section {
+    margin-right: 40px;
+}
 aside {
     float: right;
     height: auto;
@@ -103,12 +105,16 @@ aside {
     display: block;
     float: right;
     margin-right: 40px;
-    background-color: #F3ECED;
+    background-color: #FBF8F8;
 }
 .aside h2 {
     text-align: center;
     padding: 10% 20% 0% 20%;
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #DD818E;
+    text-transform: uppercase;
 }
 #aside-photo {
     background: url("../images/jasmin.jpg") no-repeat center center;
@@ -116,12 +122,20 @@ aside {
     width: 250px;
     height: 250px;
     padding: 20px;
-    margin: 20px;
+    margin: 2% 10% 10% 10%;
     border-radius: 50%;
-
-
 }
-
+.aside h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4B2921;
+    font-weight: 500;
+}
+.aside p {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #4B2921;
+}
 
 
 
