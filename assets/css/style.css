@@ -96,12 +96,14 @@ figure {
 aside {
     float: right;
     height: auto;
-    width: 50%;
+    width: 40%;
 }
 .aside{
     width: 60%;
     display: block;
     float: right;
+    margin-right: 40px;
+    background-color: #F3ECED;
 }
 .aside h2 {
     float: right;
