@@ -92,26 +92,22 @@ figure {
 }
 
 /*Section 1- About ME*/
-.aside-section {
-    margin-right: 40px;
+aside {
+    float: right;
+    width: 20%;
+    position: relative;
+}
+.aside{
+    float: right;
+    background-color: #FBF8F8;
+    height: auto;
+    width: 100%;
     position: relative;
     top: 40px
 }
-aside {
-    float: right;
-    height: auto;
-    width: 40%;
-}
-.aside{
-    width: 60%;
-    display: block;
-    float: right;
-    margin-right: 40px;
-    background-color: #FBF8F8;
-}
 .aside h2 {
     text-align: center;
-    padding: 10% 20% 0% 20%;
+    padding: 10% 20% 5% 20%;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -121,11 +117,12 @@ aside {
 #aside-photo {
     background: url("../images/jasmin.jpg") no-repeat center center;
     background-size: 100%;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     padding: 20px;
-    margin: 2% 10% 10% 10%;
+    margin: 0 auto;
     border-radius: 50%;
+    
 }
 .aside h4 {
     font-family: 'Montserrat', sans-serif;
@@ -137,6 +134,7 @@ aside {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #4B2921;
+    padding-right: 40px;
 }
 
 /*First Left Section*/
@@ -146,8 +144,13 @@ aside {
     width: 50%;
     position: relative;
     top: 40px;
+    height: auto;
+}
+.first-left h1 {
     margin-left: 40px;
-    height: 500px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 
@@ -157,18 +160,5 @@ aside {
 
 
 
-
-#aside-circle {
-    width: 100px;
-    height: 100px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    position: absolute;
-    
-   
-}
 
   
