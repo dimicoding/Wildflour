@@ -93,16 +93,12 @@ figure {
 }
 
 /*Section 1- About ME*/
-aside {
-    float: right;
-    width: 20%;
-    position: relative;
-}
+
+
 .aside{
     float: right;
     background-color: #FBF8F8;
-    height: auto;
-    width: 100%;
+    width: 20%;
     position: relative;
     top: 40px
 }
@@ -139,14 +135,15 @@ aside {
 }
 
 /*First Left Section*/
-
+#first-section {
+    height: auto;
+    overflow: hidden;
+    background-color: #FBF8F8;
+}
 .first-left {
     float: left;
     width: 80%;
-    position: relative;
-    top: 40px;
     height: auto;
-    background-color: #FBF8F8;
     display: block;
 }
 .first-left h1 {
@@ -191,7 +188,21 @@ aside {
     column-count: 3;
 
 }
+#for-recipes a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    float: right;
+    text-decoration: none;
+    color: #4B2921;
+    margin-top: 20px;
 
 
+    
+}
 
-  
+#for-recipes a:hover {
+    font-weight: bold;
+}
+
+
+}
