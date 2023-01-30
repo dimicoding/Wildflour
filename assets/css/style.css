@@ -225,6 +225,9 @@ figure {
  }
 
  /*Footer*/
+ footer {
+    background-color: #D6BAAE;
+ }
 
  .vertical-nav #nav {
     padding-inline-start: 0;
