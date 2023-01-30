@@ -69,7 +69,7 @@ figure {
     background: url("../images/IMG_6938.jpeg") no-repeat center center;
     background-size: 100%;
 
-    background-position: 0px -80px;
+    background-position-y: 20px;
     height: 600px;
     width: 100%;
     position: relative;
@@ -207,7 +207,7 @@ figure {
     background: url("../images/3cakenew.jpeg") center center;
     height: 400px;
     width: 600px;
-    background-size: 33%;
+    background-size: 33.3%;
  }
  div #pastry-student {
     display: inline-block;
@@ -222,4 +222,14 @@ figure {
  }
  #pastry-student a:hover {
     font-weight: bold;
+ }
+
+ /*Footer*/
+
+ .vertical-nav #nav {
+    padding-inline-start: 0;
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
  }
