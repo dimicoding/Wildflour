@@ -43,9 +43,22 @@
 
     </header>
 
-    <section>
-        <h2>HERE'S CONTACT PAGE</h2>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact"></form>
+        <h2>Get in Touch with Us!</h2>
 
+        <label for="fname">First Name</label>
+        <input class="text-input" id="fname" name="first_name" type="text" required>
+
+        <label for="lname">Last Name</label>
+        <input class="text-input" id="lname" name="last_name" type="text" required>
+
+        <label for="email">Email Address</label>
+        <input class="text-input" type="email" id="email" name="email_address" required>
+
+        <textarea name="text" id="text-area" placeholder="Tell us how can we help you" rows="10" cols="40"></textarea>
+
+        <input class="send-button" type="submit" value="Send">
 
     </section>
 

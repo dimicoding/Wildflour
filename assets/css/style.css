@@ -291,6 +291,10 @@ figure {
     letter-spacing: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 70%;
+ }
 
-
+ /*Form*/
+ .form-section{
+    clear: left;
+    background: url("../images/gentlecake.JPG");
  }
