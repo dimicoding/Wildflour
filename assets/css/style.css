@@ -43,7 +43,7 @@ header {
 #nav {
     padding-inline-start: 0;
     font-size: 50%;
-    padding: 30px;
+    padding: 40px;
 }
 #nav li {
     display: inline-block;
@@ -54,6 +54,7 @@ header {
     color: #4B2921;
     text-decoration: none;
     margin: 30px;
+    font-size: 120%;
 }
 #nav a:hover {
     border-bottom: 1px double #F3ECED;
@@ -229,6 +230,9 @@ figure {
  /*Footer*/
  footer {
     background-color: #D6BAAE;
+    height: auto;
+    bottom: 0;
+    width: 100%;
  }
 
  .vertical-nav #nav {
@@ -254,7 +258,7 @@ figure {
  }
  #last-logo h3 {
     margin-bottom: 0;
-    padding-top: 10px;
+    padding-top: 2%;
  }
  #last-logo h5 {
     margin-bottom: 0;
@@ -276,7 +280,17 @@ figure {
     padding: 5%;
     color: #3a3a3a;
     padding-top: 0;
+    padding-bottom: 0;
  }
  #follow {
+    display: inline;
+    text-align: center;
+ }
+ #follow p{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70%;
+
 
  }
