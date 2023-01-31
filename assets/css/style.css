@@ -359,11 +359,23 @@ figure {
 
 /*Recipes section*/
 .first-recipy {
-    
+    margin: 15% 0;
+}
+.first-recipy h1 {
+    text-align: center;
+}
+.recipy-p{
+    background-color: #FBF8F8;
+}
+.recipy-p div{
+    float: right;
+    width: 60%;
+
 }
 
 #fraisier{
-    background: url("../images/fraisier.jpeg") no-repeat center center;
-    height: 350px;
-    width: 300px;
+    
+    height: 500px;
+    width: 600px;
+    margin-left: 5%;
 }
