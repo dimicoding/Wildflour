@@ -342,3 +342,31 @@ figure {
 #text-area:hover {
     border-color: #D6BAAE;
 }
+.send-button {
+    margin-top: 20px;
+    border-radius: 15%;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size:100%;
+    background-color: #4B2921;
+    color: #fafafa;
+    display:block;
+}
+.send-button:hover{
+    background-color: #F3ECED;
+    color: #4B2921;
+}
+
+/*.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size:100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display:block;
+}
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;*/
