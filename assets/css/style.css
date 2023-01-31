@@ -359,11 +359,18 @@ figure {
 
 /*Recipes section*/
 .first-recipy {
-    margin: 15% 0;
+    margin: 5% 0;
 }
 .first-recipy h1 {
     text-align: center;
+    text-align: center;
+    font-family: 'League Script', cursive;
+    font-weight: 300;
+    font-size: 80px;
+    font-style: italic;
+    margin-bottom: 0;
 }
+
 .recipy-p{
     background-color: #FBF8F8;
 }
@@ -388,7 +395,16 @@ figure {
     width: 35%;
     margin-left: 5%;
 }
-.recipy-p div p em {
-    position: absolute;
-    bottom: 0;
+.recipy-p div a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+.recipy-p div a:hover {
+    font-size: 20px;
+    font-weight: bold;
 }
