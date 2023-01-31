@@ -3,6 +3,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Sacramento', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=League+Script&family=Montserrat:wght@100&family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 /*Footer Section*/
 body {
@@ -417,19 +418,19 @@ figure {
 }
 .blog h1 {
     font-family: 'Montserrat', sans-serif;
-    color: #DD818E;
+    color: #F1C6C3;
     font-weight: 700;
     font-size: 50px;
     margin-bottom: -25px;
-    margin-left: 10%;
     text-align: center;
 }
 
 .first-post{
     background-color: #FBF8F8;
+    height: 500px;
 }
 .first-post p {
-    width: 60%;
+    width: 50%;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     line-height: 1.5;
@@ -438,16 +439,29 @@ figure {
 }
 
 .first-post div{
-    float: right;
-    width: 50%;
-    margin: 20px 5%;
+    float: left;
+    width: 60%;
+    margin: 5% 5%;
+    text-align: -webkit-right;
 }
 
 #cups{
     
     height: 350px;
-    width: 35%;
-    margin-left: 5%;
+    width: 20%;
+    float: right;
+    object-fit: cover;
+    margin: 5% 5%;
+}
+#bold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 30px;
+    margin: 8% 0% 0% 0;
+}
+#tools{
+
 }
 .first-post div a {
     font-family: 'Montserrat', sans-serif;
