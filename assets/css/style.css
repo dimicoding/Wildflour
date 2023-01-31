@@ -124,9 +124,9 @@ figure {
 
 /*First Left Section*/
 #first-section {
-    height: auto;
-    overflow: hidden;
+    height: 800px;
     background-color: #FBF8F8;
+    margin-top: 5%;
 }
 .first-left {
     float: left;
@@ -182,7 +182,7 @@ figure {
     float: right;
     text-decoration: none;
     color: #4B2921;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 #for-recipes a:hover {
@@ -191,6 +191,7 @@ figure {
 
 /*Second Section */
 .second-section {
+    height: 600px;
     margin: 5%;
     padding-top: 7%;
 
@@ -421,7 +422,7 @@ figure {
     color: #F1C6C3;
     font-weight: 700;
     font-size: 50px;
-    margin-bottom: -25px;
+    margin-bottom: -30px;
     text-align: center;
 }
 
@@ -446,11 +447,10 @@ figure {
 }
 
 #cups{
-    
     height: 350px;
     width: 20%;
     float: right;
-    object-fit: cover;
+    object-fit: contain;
     margin: 5% 5%;
 }
 #bold{
