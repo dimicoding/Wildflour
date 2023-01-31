@@ -367,15 +367,28 @@ figure {
 .recipy-p{
     background-color: #FBF8F8;
 }
+.recipy-p p {
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
 .recipy-p div{
     float: right;
-    width: 60%;
-
+    width: 50%;
+    margin: 20px 5%;
 }
 
 #fraisier{
     
-    height: 500px;
-    width: 600px;
+    height: 350px;
+    width: 35%;
     margin-left: 5%;
+}
+.recipy-p div p em {
+    position: absolute;
+    bottom: 0;
 }
