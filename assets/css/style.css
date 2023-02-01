@@ -393,9 +393,9 @@ figure {
 }
 
 #fraisier{
-    
+    object-fit: cover;
     height: 350px;
-    width: 35%;
+    width: 30%;
     margin-left: 5%;
 }
 .recipy-p div a {
@@ -476,4 +476,58 @@ figure {
     font-size: 20px;
     font-weight: bold;
 } 
-/**/
+/*Media Query*/
+
+@media screen and (max-width: 1250px) {
+    #logo-img{
+        background-attachment: initial;
+    }
+    #first-section{
+        height: 600px;
+        margin: 10% 1%;
+
+    }
+    .first-left {
+        width: 100%;
+    }
+    .first-left h1 {
+        text-align: left;
+        width: 100%;
+        font-weight: 300;
+        margin: 20px 0 0;
+        font-size: 60px;
+
+
+    }
+    .aside {
+        display: none;
+    }
+    #mint-cake {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 8%;
+
+    }
+    .second-section{
+        height: 800px;
+        margin: 10% 1%;
+        padding-top: 0;
+    }
+    .second-section h1 {
+        float: none;
+        text-align: left;
+        width: 100%;
+        font-weight: 300;
+        margin-left: 0;
+        font-size: 60px;
+    }
+    #three-cake{
+        width: 100%;
+        background-size: 22%;
+        margin-top: 8%;
+    }
+    #pastry-student{
+        margin-top: 5%;
+    }
+}
+
