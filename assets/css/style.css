@@ -529,5 +529,22 @@ figure {
     #pastry-student{
         margin-top: 5%;
     }
+    /*Recipe page*/
+    #fraisier{
+        object-fit: contain;
+    }
+    .recipy-p p{
+        width: 100%;
+        margin-top: 20%;
+    }
+    /*Pastry page*/
+    .blog h1{
+        font-size: 40px;
+    }
+    /*Contact page*/
+    .form-section{
+        background: url(../images/gentlecake.JPG) no-repeat center center;
+        background-size: cover;
+    }
 }
 
