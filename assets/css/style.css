@@ -547,29 +547,81 @@ figure {
         background-size: cover;
     }
 }
-/*Media Query-small screen*/
+/*Media Query-small screens*/
 
 @media screen and (max-width: 950px) {
     #logo h1{
-        font-size: 60px;
+        font-size: 80px;
     }
     #sub-head{
         font-size: 10px;
     }
     #nav{
-        font-size: 10px;
+        font-size: 15px;
         display: grid;
         align-items: center;
-        margin: 15% 0 0;
+        margin: 5% 0 0;
     }
     #nav li {
         letter-spacing: 2px;
         margin-bottom: 10px;
     }
     #logo-img{
-        
+        height: 500px;
+    }
+    #first-section{
+        height: 600px;
+
+    }
+    .first-left h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+    #mint-cake{
+        height: 300px;
+        width: 250px;
+        background-position-y: -12em;
+    }
+    #cookie{
+        height: 300px;
+        width: 250px;
+    }
+    #tart{
+        height: 300px;
+        width: 250px;
+    }
+    .second-section{
+        height: 700px;
+    }
+    .second-section h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    #three-cake{
+        background-size: 26%;
+    }
+    .blog h1{
+        font-size: 30px;
+        margin-bottom: -20px;
+    }
+    .first-post p{
+        width: 80%;
+        font-size: 15px;
+        height: 400px;
+    }
+    #bold{
+        font-size: 25px;
+    }
+    .first-post div a{
+        font-size: 15px;
+    }
+    #cups{
+        object-fit: contain;
     }
 
 
-
 }
+/*Media Query-phone screens*/
+
+height: 150px;
+    width: 100px
