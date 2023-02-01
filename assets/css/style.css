@@ -717,6 +717,10 @@ figure {
         font-size: 20px;
         height: 20%;
     }
+    #cups{
+        height: 230px;
+        width: 23%;
+    }
     .first-post div a {
         font-size: 12px;
         position: absolute;
