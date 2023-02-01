@@ -476,7 +476,7 @@ figure {
     font-size: 20px;
     font-weight: bold;
 } 
-/*Media Query*/
+/*Media Query- mid screen*/
 
 @media screen and (max-width: 1250px) {
     #logo-img{
@@ -547,4 +547,29 @@ figure {
         background-size: cover;
     }
 }
+/*Media Query-small screen*/
 
+@media screen and (max-width: 950px) {
+    #logo h1{
+        font-size: 60px;
+    }
+    #sub-head{
+        font-size: 10px;
+    }
+    #nav{
+        font-size: 10px;
+        display: grid;
+        align-items: center;
+        margin: 15% 0 0;
+    }
+    #nav li {
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+    #logo-img{
+        
+    }
+
+
+
+}
