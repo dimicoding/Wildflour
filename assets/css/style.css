@@ -485,6 +485,23 @@ figure {
     font-size: 20px;
     font-weight: bold;
 } 
+
+/*About me styles*/
+.about {
+    margin: 5% 10% 20%;
+}
+.about h1{
+    color: #3a3a3a;
+    font-family: 'League Script', cursive;
+    font-size: 50px;
+}
+.about p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
 /*Media query -0*/
 @media (min-width: 1281px) {
 
