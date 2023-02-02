@@ -132,9 +132,6 @@ figure {
 .first-left {
     float: left;
     width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 .row-img {
     display: flex;
@@ -146,10 +143,8 @@ figure {
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    width: 70%;
-    display: block;
-    align-content: center;
-    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
     font-size: 80px;
 }
 #mint-cake {
@@ -510,10 +505,10 @@ figure {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
     #logo-img{
-        background-attachment: initial;
+        background-attachment: fixed;
     }
     #first-section{
-        height: 600px;
+        height: 1000px;
         margin: 10% 1%;
 
     }
@@ -526,11 +521,20 @@ figure {
         font-weight: 300;
         margin: 20px 0 30px;
         font-size: 60px;
-
-
     }
     .aside {
-        display: none;
+        width: 100%;
+        padding: 2%;
+        height: 400px;
+    }
+    .aside h2{
+        padding: 0;
+    }
+    .aside h4 {
+        margin: 0% 10% 0% 10%;
+    }
+    .aside p {
+        margin: 0% 10% 0% 10%;
     }
     #mint-cake {
         margin-left: 0;
@@ -597,38 +601,62 @@ figure {
         margin-bottom: 10px;
     }
     #logo-img{
-        height: 500px;
+        height: 600px;
+        background-attachment: unset;
+        background-position-y: -10%;
     }
     #first-section{
-        height: 600px;
+        height: 1000px;
 
+    }
+    .first-left {
+        width: 100%;
     }
     .first-left h1 {
         text-align: center;
         font-size: 50px;
+        margin-left: 0;
     }
     #mint-cake{
-        height: 300px;
-        width: 250px;
-        background-position-y: -12em;
+        height: 250px;
+        width: 200px;
+        background-position-y: -9em;
     }
     #cookie{
-        height: 300px;
-        width: 250px;
+        height: 250px;
+        width: 200px;
     }
     #tart{
-        height: 300px;
-        width: 250px;
+        height: 250px;
+        width: 200px;
+    }
+    .aside {
+        width: 100%;
+        padding: 2%;
+        height: 400px;
+    }
+    .aside h2{
+        padding: 0;
+    }
+    .aside h4 {
+        margin: 0% 10% 0% 10%;
+    }
+    .aside p {
+        margin: 0% 10% 0% 10%;
     }
     .second-section{
         height: 700px;
     }
     .second-section h1{
+        float: none;
+        width: 100%;
+        margin-bottom: 5%;
         text-align: center;
         font-size: 50px;
     }
     #three-cake{
-        background-size: 26%;
+        background-size: 29%;
+        width: 100%;
     }
     .blog h1{
         font-size: 30px;
@@ -641,17 +669,39 @@ figure {
     #bold{
         font-size: 25px;
     }
+    .first-post {
+        height: 400px;
+        margin-bottom: 10%;
+    }
     .first-post div a{
         font-size: 15px;
     }
     #cups{
         object-fit: contain;
     }
+    
+    .form-section{
+        background: url("../images/gentlecake.JPG") center;
+        background-position-y: 60%;
+
+        background-size: cover;
+        height: 1000px;
+    }
+    .recipy-p {
+        height: 400px;
+    }
+    .recipy-p p{
+        width: 100%;
+    }
+    .first-recipy {
+        margin: 5% 0 10%;
+    }
+    
 
 
 }
 /*Media Query 3*/
-
+@media (min-width: 481px) and (max-width: 767px) {
     /*#nav{
         font-size: 13px;
         margin: 20% 0 0;
@@ -763,10 +813,4 @@ figure {
         padding: 10px 20px 10px 20px;
     }
 }
-.horizontal{
-    display: flex;
-    justify-content: center;
-    margin: 3% 4% 2% 4%;
-    width: 300px;
-    height: 300px;
-}*/
+
