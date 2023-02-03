@@ -42,15 +42,15 @@ header {
 
   
 /*NAV section*/
-#nav {
+.nav {
     padding-inline-start: 0;
     font-size: 50%;
     padding: 40px;
 }
-#nav li {
+.nav li {
     display: inline-block;
 }
-#nav a {
+.nav a {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: #4B2921;
@@ -58,7 +58,7 @@ header {
     margin: 30px;
     font-size: 120%;
 }
-#nav a:hover {
+.nav a:hover {
     border-bottom: 1px double #F3ECED;
 }
 .active {
@@ -138,7 +138,7 @@ figure {
     flex-wrap: wrap;
     justify-content: center;
 }
-.first-left h1 {
+.first-left h2 {
     margin-left: 20px;
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
@@ -200,7 +200,7 @@ figure {
     padding-top: 7%;
 
 }
-.second-section h1 {
+.second-section h2 {
     float: right;
     display: block;
     width: 50%;
@@ -241,7 +241,7 @@ figure {
     width: 100%;
  }
 
- .vertical-nav #nav {
+ .vertical-nav .nav {
     font-size: 120%;
     display: flex;
     flex-direction: column;
@@ -258,7 +258,7 @@ figure {
     padding-top: 1px;
     display: inline;
  }
- ul #nav {
+ ul .nav {
     margin-top: 0;
     padding-top: 0;
  }
@@ -521,7 +521,7 @@ figure {
     .first-left {
         width: 100%;
     }
-    .first-left h1 {
+    .first-left h2 {
         text-align: center;
         width: 100%;
         font-weight: 300;
@@ -553,7 +553,7 @@ figure {
         margin: 10% 1%;
         padding-top: 0;
     }
-    .second-section h1 {
+    .second-section h2 {
         float: none;
         text-align: center;
         width: 100%;
@@ -596,13 +596,13 @@ figure {
     #sub-head{
         font-size: 10px;
     }
-    #nav{
+    .nav{
         font-size: 15px;
         display: grid;
         align-items: center;
         margin: 5% 0 0;
     }
-    #nav li {
+    .nav li {
         letter-spacing: 2px;
         margin-bottom: 10px;
     }
@@ -618,7 +618,7 @@ figure {
     .first-left {
         width: 100%;
     }
-    .first-left h1 {
+    .first-left h2 {
         text-align: center;
         font-size: 50px;
         margin-left: 0;
@@ -653,7 +653,7 @@ figure {
     .second-section{
         height: 700px;
     }
-    .second-section h1{
+    .second-section h2{
         float: none;
         width: 100%;
         margin-bottom: 5%;
@@ -714,13 +714,13 @@ figure {
     #sub-head{
         font-size: 10px;
     }
-    #nav{
+    .nav{
         font-size: 15px;
         display: grid;
         align-items: center;
         margin: 5% 0 0;
     }
-    #nav li {
+    .nav li {
         letter-spacing: 2px;
         margin-bottom: 10px;
     }
@@ -743,7 +743,7 @@ figure {
     .first-left {
         width: 100%;
     }
-    .first-left h1 {
+    .first-left h2 {
         text-align: center;
         font-size: 50px;
         margin-left: 0;
@@ -782,7 +782,7 @@ figure {
         height: 700px;
         margin-top: 20%;
     }
-    .second-section h1{
+    .second-section h2{
         float: none;
         width: 100%;
         margin-bottom: 5%;
@@ -843,13 +843,13 @@ figure {
     #sub-head{
         font-size: 10px;
     }
-    #nav{
+    .nav{
         font-size: 13px;
         display: grid;
         align-items: center;
         margin: 5% 0 0;
     }
-    #nav li {
+    .nav li {
         letter-spacing: 2px;
         margin-bottom: 10px;
     }
@@ -872,7 +872,7 @@ figure {
     .first-left {
         width: 100%;
     }
-    .first-left h1 {
+    .first-left h2 {
         text-align: center;
         font-size: 40px;
         margin-left: 0;
@@ -921,7 +921,7 @@ figure {
         height: 700px;
         margin-top: 10%;
     }
-    .second-section h1{
+    .second-section h2{
         float: none;
         width: 100%;
         margin-bottom: 5%;
@@ -1029,7 +1029,7 @@ figure {
         margin: 5% 5%;
         text-align: -webkit-right;
     }
-    #nav a {
+    .nav a {
         margin: 30px 5px 50px;
     }
 }
