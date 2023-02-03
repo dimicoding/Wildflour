@@ -875,17 +875,25 @@ figure {
         height: 250px;
         width: 200px;
         background-position-y: -9em;
-        margin-bottom: 1%;
+        margin-bottom: 5%;
     }
     #cookie{
         height: 250px;
         width: 200px;
-        margin-bottom: 1%;
+        margin-bottom: 5%;
     }
     #tart{
         height: 250px;
         width: 200px;
-        margin-bottom: 1%;
+        margin-bottom: 5%;
+    }
+    #for-recipes {
+        display: flex;
+        justify-content: center;
+    }
+    #for-recipes a {
+        float: none;
+        margin-top: 20px;
     }
     .aside {
         width: 100%;
@@ -894,12 +902,14 @@ figure {
     }
     .aside h2{
         padding: 0;
+        margin-bottom: 10px;
     }
     .aside h4 {
-        margin: 0% 10% 0% 10%;
+        margin: 5% 5% 0% 10%;
     }
     .aside p {
-        margin: 0% 10% 0% 10%;
+        margin: 2% 5% 0% 10%;
+        padding-right: 0;
     }
     .second-section{
         height: 700px;
@@ -915,6 +925,19 @@ figure {
     #three-cake{
         background-size: 45%;
         width: 100%;
+    }
+    #pastry-student {
+        margin-top: 20px;
+    }
+    .about h1 {
+        color: #3a3a3a;
+        font-size: 50px;
+        font-size: 20px;
+        margin-bottom: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        margin-bottom: 40px;
+        text-align: center;
     }
     .blog{
         height: 800px;
@@ -943,23 +966,33 @@ figure {
     }
     
     .form-section{
-        background: url("../images/gentlecake.JPG") center;
+        background: url("../images/gentlecake.JPG");
         background-position-y: 60%;
 
-        background-size: cover;
+        background-size: unset;
         height: 1000px;
     }
     .recipy-p {
         height: 400px;
     }
     .recipy-p p{
-        width: 100%;
+        width: 90%;
         font-size: 13px;
     }
     .first-recipy {
         margin: 5% 0 10%;
         height: 600px;
     }
+    .first-recipy h1{
+        font-size: 30px;
+        font-style: italic;
+        margin-bottom: 0;
+        font-family: 'Montserrat', sans-serif;
+        color: #F1C6C3;
+        font-weight: 700;
+        margin-bottom: -10px;
+    }
+    
     #fraisier {
         object-fit: contain;
         height: 350px;
