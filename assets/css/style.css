@@ -368,14 +368,15 @@ figure {
 .first-recipy {
     margin: 5% 0;
 }
+
 .first-recipy h1 {
-    text-align: center;
-    text-align: center;
-    font-family: 'League Script', cursive;
-    font-weight: 300;
-    font-size: 80px;
+    font-size: 30px;
     font-style: italic;
     margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #F1C6C3;
+    font-weight: 700;
+    text-align: center;
 }
 
 .recipy-p{
@@ -487,8 +488,13 @@ figure {
 }
 .about h1{
     color: #3a3a3a;
-    font-family: 'League Script', cursive;
     font-size: 50px;
+    font-size: 30px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
 }
 .about p {
     font-family: 'Montserrat', sans-serif;
