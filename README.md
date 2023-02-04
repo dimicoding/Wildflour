@@ -173,7 +173,7 @@ Includes an image to activate curiosity when the user first lands on this websit
 - The values obtained throughout the 5 pages of Accessibility, Best Practices, and SEO maintained a very constant range, from 94 to 100.
 - The value obtained from all the pages for performance fluctuated more. The average represents 88.
 (example run on "Life as a Pastry Student")
-![Lighthouse](media-readme/cssval.jpg)
+![Lighthouse](media-readme/lighhouse.jpg)
 
 ### W3C (HTML)
 HTML passed the validator with no errors or warnings to show.
