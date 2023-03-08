@@ -616,7 +616,7 @@ figure {
 
     }
     .first-left {
-        width: 100%;
+        
     }
     .first-left h2 {
         text-align: center;
@@ -637,21 +637,35 @@ figure {
         width: 200px;
     }
     .aside {
-        width: 100%;
-        padding: 2%;
-        height: 400px;
+        float: right;
+        background-color: #FBF8F8;
+        width: 20%;
+        position: relative;
+        top: 40px;
     }
     .aside h2{
         padding: 0;
     }
+    #aside-photo {
+        width: 120px;
+        height: 120px;
+    }
     .aside h4 {
-        margin: 0% 10% 0% 10%;
+        margin: 0% 1% 0% 0%;
+        font-size: 15px;
     }
     .aside p {
-        margin: 0% 10% 0% 10%;
+        margin: 5% 1% 0% 0%;
+        font-size: 13px;
+        padding: unset;
+    }
+    #for-recipes a {
+        left: -50px;
+        position: relative;
     }
     .second-section{
         height: 700px;
+    
     }
     .second-section h2{
         float: none;
